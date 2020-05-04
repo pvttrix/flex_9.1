@@ -1,0 +1,99 @@
+    @font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso'), url('miso.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Miso Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso Light'), url('miso-light.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Miso Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso Bold'), url('miso-bold.woff') format('woff');
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    min-height: 100vh;
+    background-color: #fdde7e;
+}
+
+.content {
+    max-width: 1410px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+.content__item {
+    flex:1 1 auto;
+    background-color: #fff;
+    margin: 30px;
+    min-height: 350px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__item--lg {
+    min-height: 600px;
+    padding : 24px 0;
+}
+
+.price {
+    font-family: 'Miso Bold';
+    color: #02995b;
+    font-size: 70px;
+    margin : 50px 10px;
+}
+
+.smoke {
+    margin-bottom: 10px;
+}
+
+.cups {
+    position: relative;
+    margin-left:15px;
+}
+
+.bean {
+    position: absolute;
+    top :48%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+.name {
+    font-family: 'Miso Bold';
+    font-size: 45px;
+    margin: 40px 0 -20px;
+    color: #333333;
+}
+
+.description {
+    text-align:center;
+    margin-top: 60px;
+    font-family: 'Miso Light';
+    font-size: 34px;
+}
+
+
+
