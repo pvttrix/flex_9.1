@@ -2,7 +2,7 @@
     font-family: 'Miso';
     font-style: normal;
     font-weight: normal;
-    src: local('Miso'), url('miso.woff') format('woff');
+    src: local('Miso'), url('../fonts/miso.woff') format('woff');
     }
     
     
@@ -10,7 +10,7 @@
     font-family: 'Miso Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Miso Light'), url('miso-light.woff') format('woff');
+    src: local('Miso Light'), url('../fonts/miso-light.woff') format('woff');
     }
     
     
@@ -18,7 +18,7 @@
     font-family: 'Miso Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Miso Bold'), url('miso-bold.woff') format('woff');
+    src: local('Miso Bold'), url('../fonts/miso-bold.woff') format('woff');
     }
 
 * {
@@ -51,6 +51,7 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .content__item--lg {
